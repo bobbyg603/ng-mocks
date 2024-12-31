@@ -1,3 +1,10 @@
+## [14.13.2](https://github.com/bobbyg603/ng-mocks/compare/v14.13.1...v14.13.2) (2024-12-31)
+
+
+### Bug Fixes
+
+* **a19:** respecting default standalone flag since angular 19 ([dfe4d9c](https://github.com/bobbyg603/ng-mocks/commit/dfe4d9cb80fb2bd20115ebeb8057d957d933adc7))
+
 ## [14.13.1](https://github.com/help-me-mom/ng-mocks/compare/v14.13.0...v14.13.1) (2024-08-25)
 
 
