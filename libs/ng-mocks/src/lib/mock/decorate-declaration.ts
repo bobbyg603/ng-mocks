@@ -62,14 +62,18 @@ export default <T extends (Component & Directive & Partial<Pipe>) >(
   if (meta.selector !== undefined) {
     options.selector = meta.selector;
   }
-  if(meta.selector === 'ng-ui-kit-checkbox'){
-    debugger;
-  }
+
   if (meta.standalone !== undefined) {
     options.standalone = meta.standalone;
   } else {
     const standalone = !!isStandalone(source as Type<unknown>);
     options.standalone = standalone;
+  }
+  if(meta.name){
+    options.name = meta.name;
+  }
+  if(meta.pure){
+    options.pure = meta.pure;
   }
 
   if (meta.imports) {
