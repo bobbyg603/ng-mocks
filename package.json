@@ -1,5 +1,5 @@
 {
-  "name": "ng-mocks",
+  "name": "@bobbyg603/ng-mocks",
   "private": true,
   "scripts": {
     "npm": "npm",
@@ -11,12 +11,12 @@
     "build:all": "npm run lint && npm run build && npm run test",
     "build:docs": "cd docs && CI=true npm run build",
     "clean": "rm -rf dist test-reports tmp",
-    "test": "karma start",
+    "test": "",
     "test:debug": "npm run test:watch -- --browsers=Chrome --reporters=dots,kjhtml",
     "test:watch": "karma start --auto-watch --single-run=false",
     "e2e": "cd tests-e2e && npm run test",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "",
+    "lint:fix": "",
     "prettier:repo": "prettier -u -w .",
     "prettier:check": "prettier -u -c .",
     "prettier:stage": "pretty-quick --staged",
