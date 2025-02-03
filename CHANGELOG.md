@@ -1,3 +1,15 @@
+# [14.14.0](https://github.com/bobbyg603/ng-mocks/compare/v14.13.2...v14.14.0) (2025-02-03)
+
+
+### Bug Fixes
+
+* **core:** [#9666](https://github.com/bobbyg603/ng-mocks/issues/9666) Performance ([d5ac4c1](https://github.com/bobbyg603/ng-mocks/commit/d5ac4c19f9c008d9b9f9e420915fc69358f200d2))
+
+
+### Features
+
+* standalone pipes and legacy external modules support in angular 19 ([83a8ce8](https://github.com/bobbyg603/ng-mocks/commit/83a8ce84bcc6ae6f30f0d88222d0166040880834))
+
 ## [14.13.2](https://github.com/help-me-mom/ng-mocks/compare/v14.13.1...v14.13.2) (2025-01-12)
 
 
